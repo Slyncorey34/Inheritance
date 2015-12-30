@@ -21,3 +21,7 @@ end
 get '/layout' do
 	erb :layout
 end	
+
+get '/yola' do
+	erb :yola
+end

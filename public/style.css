@@ -13,16 +13,16 @@
 		1. always a large image set in the top third of the page?
 		2. always featuring one
 		3. always featuring the other?*/
+		/*December 29 notes: need to have sticky navbar*/
 
 html {
-	background-color: #F2E2D3;
-	/*homepage is Martha's Vineyard pic of mom & dad
-	 clicking on mom's photo reveals one of the palm prints from the Inheritance Pinterest board. 
-	 clicking on dad reveals....?
-	 */
-	 font-family: georgia;
-	 font-weight: bold;
-	 color: #4d2600;
+	/*background-color: #F2E2D3;*/
+	background-image:url("images/Folk.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: georgia;
+	font-weight: bold;
+	color: #4d2600;
 }
 #navbar {
 	color: white;
@@ -37,8 +37,6 @@ html {
 	font-weight: medium;
 	padding: 5px;
 	float: right;
-
-
 }
 .container {
 	width: 1190px;
@@ -48,19 +46,17 @@ html {
 .container h1 {
 	text-align: center;
 }
-
 #section1	{
 	height: 600px;
-	background-image:url("images/Folk.jpg");
-	background-size: 80%;
+	/*background-image:url("images/Folk.jpg");*/
+	background-size: 100%;
 	background-repeat: no-repeat;
 	margin-left: 15%;
 }
-
 #section2	{
 	height:380px;
 	margin-top: 15px;
-	border: 1px solid grey;
+	
 	 
 }
 #section2 p {
@@ -74,24 +70,22 @@ html {
 #section2 h2 {
 	padding: 50px;
 	text-align: center;
-	
 }
-#section3	{
-	width: auto;
-	height: 300px;
-	background-image: url("images/palm.jpg"); 
-	color: pink;
-/*	border: 1px solid black;*/
+.footer {
+	height: 90px;
+	width: 100%;
+	margin-left: -10px;
+	background-color:  #EDBDB9;
+
 }
-#section3 p {
-	width: 65%;
-	margin-left: 170px;
-	margin-right: 10px;
-	padding-top: 15px;
-	text-align: justify;
-}
-#section3 h2 {
-	padding: 90px;
-	text-align: center;
+.footer li {
+	text-decoration: none;
+	display: inline;
+	font-size: 16px;
+	font-weight: medium;
+	padding: 5px;
+	margin-right: 7%;
+	float: right;
+	color: white;
 }
 

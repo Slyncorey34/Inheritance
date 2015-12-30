@@ -18,3 +18,9 @@
 		// 	links
 		// 	contact form
 		//  mousedown/mouseup/scroll/mouseover....
+$(document).ready(
+	function() {
+		$("body").on('click', function() {
+			// show palm.jpg, then fade to next erb
+		}
+	})		
