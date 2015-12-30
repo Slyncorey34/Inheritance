@@ -28,6 +28,7 @@ html {
 	color: white;
 	padding-bottom: 10px;
 	height: 100px;
+	margin-right: 15px;	
 }
 #navbar li {
 	text-decoration: none;
@@ -43,8 +44,6 @@ html {
 	width: 1190px;
 	height: 350px ;
 	/*border: 1px solid teal;*/
-	
-
 }
 .container h1 {
 	text-align: center;
@@ -53,15 +52,16 @@ html {
 #section1	{
 	height: 600px;
 	background-image:url("images/Folk.jpg");
-	margin: 40px ;
-	/*background-size: 40%;*/
-	/*border: 1px solid pink;*/
+	background-size: 80%;
+	background-repeat: no-repeat;
+	margin-left: 15%;
 }
 
 #section2	{
-	height:400px ;
+	height:380px;
+	margin-top: 15px;
 	border: 1px solid grey;
-	background-image: url("images/elena_boils_palm.tiff"); 
+	 
 }
 #section2 p {
 	width: 65%;
@@ -74,10 +74,13 @@ html {
 #section2 h2 {
 	padding: 50px;
 	text-align: center;
+	
 }
 #section3	{
 	width: auto;
 	height: 300px;
+	background-image: url("images/palm.jpg"); 
+	color: pink;
 /*	border: 1px solid black;*/
 }
 #section3 p {
